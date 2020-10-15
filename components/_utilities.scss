@@ -1,0 +1,85 @@
+/* background */
+.bg-cover {
+    background-position: center center;
+    background-size: cover;
+}
+
+/* position */
+.position-init {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.z-index-negative {
+    z-index: -1;
+}
+
+.text-indent {
+    text-indent: 24px !important;
+}
+
+.text-indent-init {
+    text-indent: 1rem !important;
+}
+
+.text-indent-2x {
+    text-indent: 32px !important;
+}
+
+.text-indent-3x {
+    text-indent: 48px !important;
+}
+
+.row-no-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.no-gutters {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+/* writing mode */
+.writing-vrl {
+    writing-mode: vertical-rl;
+}
+
+.writing-md-vrl {
+
+    @include media-breakpoint-up(md) {
+        writing-mode: vertical-rl;
+    }
+}
+
+.overflow-wrap {
+    overflow-wrap: break-word;
+}
+
+/* base font */
+.font-base-size {
+    font-size: 1rem !important;
+}
+
+.blood-color {
+    color: $blood;
+}
+
+.facebook-color {
+    color: $facebook;
+}
+
+.twitter-color {
+    color: $twitter;
+}
+
+.google-color {
+    color: $google;
+}
+
+.light-color {
+    border-color: rgba($color: #000000, $alpha: 1);
+    color: rgba($color: #000000, $alpha: 1);
+}

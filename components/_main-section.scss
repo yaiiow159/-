@@ -1,0 +1,48 @@
+$main-content: 420px;
+
+.main-section-title {
+    font-size: 33px !important;
+    font-weight: bolder;
+    line-height: 2;
+    letter-spacing: 10px;
+    color: $spotify-dark;
+    writing-mode: vertical-rl;
+
+    @include media-breakpoint-down(md) {
+        writing-mode: horizontal-tb;
+    }
+}
+.main-section-text {
+    font-weight: bolder;
+    color: $spotify-dark;
+}
+
+.v-section {
+    .v-content {
+        max-height: $main-content;
+        line-height: 2;
+        /* min width */
+        @include media-breakpoint-up(md) {
+            line-height: 2.5;
+        }
+    }
+}
+
+/* 以下css讓物件上移 */
+
+.v-block {
+    /* min width */
+    @include media-breakpoint-up(md) {
+        margin-top: -24px;
+        margin-bottom: -24px;
+    }
+}
+
+.section-image {
+    min-height: 250px;
+    /* max-width */
+    @include media-breakpoint-down(md) {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+}

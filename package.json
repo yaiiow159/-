@@ -1,0 +1,14 @@
+{
+  "name": "dessert",
+  "version": "1.0.0",
+  "description": "use bs5 to bulid the web ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Timmy Chung",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.0-alpha2"
+  }
+}

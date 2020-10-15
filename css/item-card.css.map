@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../components/item-card.scss"
+    ],
+    "names": [],
+    "file": "item-card.css"
+}

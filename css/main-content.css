@@ -1,0 +1,33 @@
+/* varaibles */
+.main-wrap {
+  height: 420px;
+}
+
+.main-image {
+  height: 460px;
+  width: 460px;
+}
+
+.main-bg {
+  background-color: theme-color("spotify");
+}
+
+.main-title {
+  font-size: 2rem !important;
+  letter-spacing: 10px;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+}
+
+.main-text {
+  font-size: 1rem !important;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+}
+
+.main-section {
+  margin-top: -20px;
+}
+/*# sourceMappingURL=main-content.css.map */

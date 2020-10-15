@@ -1,0 +1,65 @@
+// square intro box
+
+$square-image-height: 256px;
+.square-section {
+    margin-top: -90px;
+}
+
+.square-image-wrap {
+    height: $square-image-height;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $spotify-dark;
+    text-decoration: none;
+    & + .square-image-wrap {
+        border-left: 1px solid gray;
+    }
+    .square-color-change {
+        background-color: rgba(#c0c7c2, 0.8);
+        transition: background-color 0.5s;
+    }   
+    &.active,
+    &:hover,
+    &:focus {
+        color: $white;
+        font-weight: bolder;
+        .square-color-change {
+            background-color: rgba($spotify-dark, 0.8);
+        }
+        .square-image {
+            filter: blur(0);
+        }
+    }
+}
+
+.square-text {
+    font-size: 24px;
+    letter-spacing: 10px;
+}
+
+.square-image {
+    position: absolute;
+    right: -10px;
+    left: -10px;
+    top: -10px;
+    bottom: -10px;
+    filter: blur(5px);
+    z-index: -2;
+    transition: filter 0.5s;
+}
+
+/* background image  */
+.intro-box-image-first{
+    background-image: url(../img/intro-box-img1.jpg);
+}
+
+.intro-box-image-second{
+    background-image: url(../img/intro-box-img2.jpg);
+}
+.intro-box-image-third{
+    background-image: url(../img/intro-box-img3.jpg);
+}
