@@ -48,7 +48,8 @@
                             <a class="nav-link" href="#">周邊商品</a>
                         </li>
                     </ul>
-                    <a href="shopcart.html" target="_blank" class="btn btn-transparent mr-1"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                    <a href="shopcart.html" target="_blank" class="btn btn-transparent mr-1"><i
+                            class="fa fa-shopping-cart" aria-hidden="true"></i></a>
                 </div>
             </div>
         </nav>
@@ -84,7 +85,8 @@
                                     <td class="text-leaf" scope="row">
                                         NT$57800
                                     </td>
-                                    <td><a class="text-spotify-dark" href="#modelId" data-toggle="modal" data-title="刪除訂單"><i class="fas fa-trash-alt"></i></a></td>
+                                    <td><a class="text-spotify-dark" href="" data-toggle="modal"
+                                            data-title="刪除訂單" data-target="#deletelId"><i class="fas fa-trash-alt"></i></a></td>
                                 </tr>
 
                                 <tr>
@@ -104,7 +106,8 @@
                                     <td class="text-leaf" scope="row">
                                         NT$66000
                                     </td>
-                                    <td><a class="text-spotify-dark" href="#modelId" data-toggle="modal" data-title="刪除訂單"><i class="fas fa-trash-alt"></i></a></td>
+                                    <td><a class="text-spotify-dark" href="" data-toggle="modal"
+                                            data-title="刪除訂單" data-target="#deletelId"><i class="fas fa-trash-alt"></i></a></td>
                                 </tr>
 
                                 <tr class="align-middle">
@@ -124,7 +127,8 @@
                                     <td class="text-leaf" scope="row">
                                         NT$56000
                                     </td>
-                                    <td><a class="text-spotify-dark" href="#modelId" data-toggle="modal" data-title="刪除訂單"><i class="fas fa-trash-alt"></i></a></td>
+                                    <td><a class="text-spotify-dark" href="" data-toggle="modal"
+                                            data-title="刪除訂單" data-target="#deletelId"><i class="fas fa-trash-alt"></i></a></td>
                                 </tr>
 
                             </tbody>
@@ -255,42 +259,44 @@
         <!-- footer layout end -->
         <!-- fontawsome kit JS -->
 
-        
         <!-- Modal -->
-        <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal fade" id="deletelId" data-backdrop="static" tabindex="-1" role="dialog"
+            aria-labelledby="modelTitleId" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
-                        <div class="modal-header">
-                                <h5 class="modal-title">Modal title</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                            </div>
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
                     <div class="modal-body">
                         <div class="container-fluid">
-                            Add rows here
+                            刪除此訂單後，之後若需要需請您除下訂單，刪除前請再三確認
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                        <button type="button" class="btn btn-danger">刪除</button>
                     </div>
                 </div>
             </div>
         </div>
-        
+
+    
+
         <script>
-            $('#modelId').on('show.bs.modal', function(e) {
+            $('#deletelId').on('show.bs.modal', function (e) {
                 var button = $(event.relatedTarget);
                 var title = button.data("title");
 
                 var modal = $(this);
                 modal.find('.modal-title').text(title)
                 // Use above variables to manipulate the DOM
-                
+
             });
         </script>
-        
+
         <script src="https://kit.fontawesome.com/63b39233d0.js" crossorigin="anonymous"></script>
 </body>
 
