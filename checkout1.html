@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
+
 <head>
     <meta charset="UTF-8">
     <!-- description -->
@@ -23,34 +24,39 @@
 
     <title>傑姆的3C之家 結帳檢查頁面</title>
 </head>
+
 <body>
-        <!-- header layout -->
+    <!-- header layout -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light font-weight-bolder sticky-top">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light font-weight-bolder sticky-top">
-                <div class="container-fluid ">
-                    <a class="navbar-brand " href="#"> <i class="fas fa-laptop  mr-2"></i>傑姆的3C之家</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto mr-4 mb-0 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">筆電</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">桌機</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">周邊商品</a>
-                            </li>
-                        </ul>
-                        <a href="shopcart.html" target="_blank" class="btn btn-transparent mr-1"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-            </nav>
-        
+            <a class="navbar-brand " href="index.html"> <i class="fas fa-laptop  mr-2"></i>傑姆的3C之家</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mr-4 mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="product.html">筆電</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">桌機</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">周邊商品</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html" .html" target="_blank">登入</a>
+                    </li>
+                </ul>
+                <a href="shopcart.html" target="_blank" class="btn btn-transparent mr-1"><i class="fa fa-shopping-cart"
+                        aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
         <section class="container">
             <div class="row">
                 <div class="col-md-8">
@@ -60,7 +66,7 @@
 
                 </div>
             </div>
-        </section>   
+        </section>
 
 
         <!-- footer title -->
@@ -92,10 +98,10 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-5 d-flex flex-column justify-content-between justify-content-md-start">
-                        <p class="h4 font-weight-bolder">關於我們</p>
+                        <p class="h4 font-weight-bolder mb-1">關於我們</p>
                         <p>我們有最好的團隊來保持質量和價格，以確保向客戶提供最優質的產品，我們自2016年以來銷售超過20,0000件產品，現在我們準備出售新產品並訂閱我們，成為我們的會員可以享受折扣</p>
                         <ul class="list-unstyled mt-5">
-                            <li class="h4 font-weight-bolder">聯絡資訊</li>
+                            <li class="h4 font-weight-bolder mb-1">聯絡資訊</li>
                             <li>07-1234-5678</li>
                             <li><a class="text-spotify-dark" href="mailto:Timmy3C@email.com">Timmy3Chome@email.com</a>
                             </li>
@@ -105,7 +111,7 @@
                     </div>
                     <div class="col-md-5 text-center d-none d-md-block">
                         <div>
-                            <p class="h4 font-weight-bolder">顧客服務</p>
+                            <p class="h4 font-weight-bolder mb-1">顧客服務</p>
                             <ul>
                                 <li>
                                     <a class="text-spotify-dark" href="#">條款及條件</a>
@@ -119,7 +125,7 @@
                             </ul>
                         </div>
                         <div class="mt-5">
-                            <p class="h4 font-weight-bolder">Collaborator</p>
+                            <p class="h4 font-weight-bolder mb-1">合作廠商</p>
                             <ul>
                                 <li class="mb-1"><img src="https://a.impactradius-go.com/display-ad/4076-591540"
                                         alt="lenovo" height="30"></li>
@@ -150,5 +156,9 @@
         <!-- footer layout end -->
         <!-- fontawsome kit JS -->
         <script src="https://kit.fontawesome.com/63b39233d0.js" crossorigin="anonymous"></script>
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/all.js"></script>
 </body>
+
 </html>
