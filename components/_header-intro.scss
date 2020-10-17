@@ -16,10 +16,10 @@ $square-image-height: 256px;
     color: $spotify-dark;
     text-decoration: none;
     & + .square-image-wrap {
-        border-left: 1px solid gray;
+        border-left: 1px solid #5b5656;
     }
     .square-color-change {
-        background-color: rgba(#c0c7c2, 0.8);
+        background-color: rgba(#6a6767, 0.8);
         transition: background-color 0.5s;
     }   
     &.active,
@@ -54,12 +54,12 @@ $square-image-height: 256px;
 
 /* background image  */
 .intro-box-image-first{
-    background-image: url(../img/intro-box-img1.jpg);
+    background-image: url(../img/intro-box-img1.jpeg);
 }
 
 .intro-box-image-second{
-    background-image: url(../img/intro-box-img2.jpg);
+    background-image: url(../img/intro-box-img2.jpeg);
 }
 .intro-box-image-third{
-    background-image: url(../img/intro-box-img3.jpg);
+    background-image: url(../img/intro-box-img3.jpeg);
 }

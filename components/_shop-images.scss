@@ -1,0 +1,17 @@
+$shop-images-height:80px;
+$shop-images-width:120px;
+
+.shop-images{
+    width:$shop-images-width;
+    height: $shop-images-height; 
+}
+
+.shop-price{
+    font-size: 20px;
+    font-weight: bold;
+    list-style: 20px;
+}
+
+.shop-item-name{
+    line-height: 20px;
+}

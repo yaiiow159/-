@@ -14,17 +14,15 @@
         height: 0;
         border-radius: 10px;
         border: 10px solid #000000;
-    }
-    &::before {
         left: -20px;
     }
-    li {
+    li{
         position: relative;
         display: block;
         float: left;
         width: 90px;
         transform: rotate(-70deg);
-        top: -65px;
+        top: -59px;
 
         &::before {
             content: "";

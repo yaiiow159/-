@@ -7,7 +7,7 @@
     <meta name="description" content="3c用品介紹，3c專賣地方">
     <meta name="keywords" content="3c，筆電，桌機，資訊商品">
     <!-- facebook description -->
-    <meta property="og:title" content="Tim 3c store"" />
+    <meta property="og:title" content="Tim 3c store" />
     <meta property=" og:description" content="The store to sell the desktop and laptop with the cheepier prices" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="" />
@@ -22,7 +22,7 @@
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>傑姆的3C之家 結帳步驟1頁面</title>
+    <title>傑姆的3C之家 結帳步驟3-1頁面</title>
 </head>
 
 <body>
@@ -59,13 +59,14 @@
         <div class="row">
 
             <section class="container my-5">
-
                 <div class="row justify-content-center">
 
-                    <div class="col-md-6 bg-gradient bg-shadows row-no-padding mb-3 mb-md-0 ">
+                    <div class="col-md-6 bg-gradient bg-shadows row-no-padding mb-3 mb-md-0">
+
+
                         <form class="row g-2  font-bold-size text-spotify-dark py-3 px-4 needs-validation" novalidate>
                             <div class="d-flex justify-content-around">
-                                <h2 class="text-spotify-dark font-weight-bold">運送</h2>
+                                <h2 class="text-spotify-dark font-weight-bold">付款</h2>
                                 <ol class="timeline">
                                     <li>
 
@@ -78,82 +79,51 @@
                                     </li>
                                 </ol>
                             </div>
-                            <div class="col-md-6">
-                                <label for="inputName4" class="form-label col-form-label-lg">姓氏</label>
-                                <input type="text" class=" form-control form-control-lg" id="inputName4" placeholder="王" required>
-                                <div class="invalid-feedback font-base-size">
-                                    必填欄位，請輸入姓氏
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="inputLastName4" class="form-label col-form-label-lg">名子</label>
-                                <input type="text"" class=" form-control form-control-lg" id=" inputLastName4" placeholder="某某"
-                                    required>
-                                <div class="invalid-feedback font-base-size">
-                                    必填欄位，請輸入名子
-                                </div>
+                            <div class="btn-group btn-group-lg mt-3" role="group" aria-label="">
+                                <button type="button" class="btn btn-outline-secondary font-bold-size ">電子發票</button>
+                                <button type="button" class="btn btn-outline-secondary font-bold-size ">郵寄發票</button>
                             </div>
                             <div class="col-12">
-                                <label for="inputTellPhone" class="form-label col-form-label-lg ">電話</label>
-                                <input type="text" class="form-control form-control-lg" id="inputTellPhone" placeholder="0939100001">
+                                <label for="inputNum4" class="form-label col-form-label-lg">電子郵件信箱</label>
+                                <div style="position: relative;">
+                                    <input type="text" class=" form-control form-control-lg" id="inputNum4" required
+                                        placeholder="eaxmple123@gmail.com">
+                                </div>
+                                <div class="invalid-feedback font-base-size">
+                                    必填欄位，請輸入卡號
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="inputTellPhone" class="form-label col-form-label-lg">統一編號 (選填)</label>
+                                <input type="text" class="form-control form-control-lg" id="inputTellPhone"
+                                    placeholder="12345678">
                                 <div class="invalid-feedback font-base-size">
                                     必填欄位，請輸電話號碼
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <label for="inputState" class="form-label col-form-label-lg">縣市</label>
-                                <select id="inputState" class="form-select form-select-lg" required>
-                                    <option selected>台北市</option>
-                                    <option>新北市</option>
-                                    <option>基隆市</option>
-                                    <option>台南市</option>
-                                    <option>高雄市</option>
-                                </select>
-                                <div class="invalid-feedback font-base-size">
-                                    必填欄位，請選擇縣市
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="inputState" class="form-label col-form-label-lg">地區</label>
-                                <select id="inputState" class="form-select form-select-lg" required>
-                                    <option selected>內湖區</option>
-                                    <option>信義區</option>
-                                    <option>汐止區</option>
-                                    <option>三重區</option>
-                                    <option>萬華區</option>
-                                </select>
-                                <div class="invalid-feedback font-base-size">
-                                    必填欄位，請輸入地區
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <label for="inputState" class="form-label col-form-label-lg">巷弄</label>
-                                <select id="inputState" class="form-select form-select-lg">
-                                    <option selected>資訊巷</option>
-                                    <option>光華巷</option>
-                                </select>
-                            </div>
+
                         </form>
-                        <a href="checkout2.html" 
-                        class="btn btn-spotify text-white btn-block  py-1 font-bold-size">下一步</a>
+                        <button type="submit"
+                            class="btn btn-spotify text-white btn-block  py-2  font-bold-size">確認結帳</button>
                     </div>
 
-                    <!-- Aside part -->
                     <div class="col-md-4">
+
                         <div class="accordion col-md-10 mb-2" id="ShowShopDetail">
                             <h2 class="mb-0">
-                                <button class="btn btn-outline-shadows btn-block text-center text-spotify-dark font-bold-size p-2" type="button"
-                                    data-toggle="collapse" data-target="#collapseOne" 
+                                <button
+                                    class="btn btn-outline-shadows btn-block text-center text-spotify-dark font-bold-size p-2"
+                                    type="button" data-toggle="collapse" data-target="#collapseOne"
                                     aria-controls="collapseOne">
                                     顯示購物明細
                                 </button>
                             </h2>
                         </div>
-
                         <div class="row flex-column">
-                            <div id="collapseOne" class="col-md-10 mb-2 collapse show" data-parent="#ShowShopDetail">
 
-                                <div class="card text-center">
+                            <div id="collapseOne" class="col-md-10 mb-2 collapse" data-parent="#ShowShopDetail">
+                                <div class="card text-center ">
                                     <div class="card-header py-1 bg-gradient bg-spotify font-bold-size text-white">
                                         訂單摘要</div>
                                     <div class="card-body ">
@@ -183,7 +153,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div id="collapseOne" class="col-md-10 collapse show" data-parent="#ShowShopDetail">
+                            <div id="collapseOne" class="col-md-10 collapse" data-parent="#ShowShopDetail">
                                 <div class="card">
                                     <div
                                         class="card-header text-center bg-gradient bg-spotify py-1 font-bold-size text-white">
@@ -193,9 +163,9 @@
                                         <div class="d-flex mb-1">
                                             <div class="mr-2">
                                                 <img class="img-fluid shop-images" src="img/product-item4.jpeg"
-                                                    alt="購物結帳圖片1">
-                                            </div>
-                                            <div class=" d-flex flex-column justify-content-center">
+                                                    alt="購物結帳圖片1" ">
+                                                </div>
+                                                <div class=" d-flex flex-column justify-content-center">
                                                 <span class="shop-item-name text-spotify">紫色迷幻R3560X (1)</span>
                                                 <span class="shop-price text-leaf">$33000</span>
                                             </div>
@@ -203,9 +173,9 @@
                                         <div class="d-flex  mb-1">
                                             <div class="mr-2">
                                                 <img class="img-fluid shop-images" src="img/item-secion-img1.jpeg"
-                                                    alt="購物結帳圖片2">
-                                            </div>
-                                            <div class=" d-flex flex-column justify-content-center">
+                                                    alt="購物結帳圖片2" ">
+                                                </div>
+                                                <div class=" d-flex flex-column justify-content-center">
                                                 <span class="shop-item-name text-spotify">RTG電競XS (1)</span>
                                                 <span class="shop-price text-leaf">$28000</span>
                                             </div>
@@ -213,9 +183,9 @@
                                         <div class="d-flex mb-1">
                                             <div class="mr-2">
                                                 <img class="img-fluid shop-images" src="img/item-seciton-img3.jpeg"
-                                                    alt="購物結帳圖片3">
-                                            </div>
-                                            <div class=" d-flex flex-column justify-content-center">
+                                                    alt="購物結帳圖片3" ">
+                                                </div>
+                                                <div class=" d-flex flex-column justify-content-center">
                                                 <span class="shop-item-name text-spotify">商業之王GFDS (1)</span>
                                                 <span class="shop-price text-leaf">$33000</span>
                                             </div>
@@ -275,7 +245,7 @@
                     <div>
                         <p class="h4 font-weight-bolder mb-1">顧客服務</p>
                         <ul>
-                            <li>
+                            <li>s
                                 <a class="text-spotify-dark" href="#">條款及條件</a>
                             </li>
                             <li>
