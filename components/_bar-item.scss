@@ -1,0 +1,21 @@
+
+.vertical-center{
+    display: flex;
+    align-items: center;
+}
+
+
+.mb-custom-space {
+    margin-bottom: 50px;
+}
+
+.bar-btn-text {
+    font-size: 24px;
+    color: bisque;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background-color: rgba(0, 0, 0, 0.75);
+    &:hover {
+        color: azure;
+    }
+}
