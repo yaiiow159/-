@@ -12212,15 +12212,15 @@ fieldset:disabled .btn {
 
 /* Customize scss */
 .p-bg {
-  background-image: url(/img/laptop-bar-middle.jpeg);
+  background-image: url(img/laptop-bar-middle.jpeg);
 }
 
 .p-bg-second {
-  background-image: url(/img/laptop-bar2-middle.jpeg);
+  background-image: url(img/laptop-bar2-middle.jpeg);
 }
 
 .p-bg-third {
-  background-image: url(/img/laptop-bar3-middle.jpeg);
+  background-image: url(img/laptop-bar3-middle.jpeg);
 }
 
 .carousel-height {
