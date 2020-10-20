@@ -12211,18 +12211,6 @@ fieldset:disabled .btn {
 }
 
 /* Customize scss */
-.p-bg {
-  background-image: url(https://github.com/yaiiow159/Timmy-s-3c-store/blob/main/img/laptop-bar-middle.jpg);
-}
-
-.p-bg-second {
-  background-image: url(https://github.com/yaiiow159/Timmy-s-3c-store/blob/main/img/laptop-bar-middle.jpg);
-}
-
-.p-bg-third {
-  background-image: url(https://github.com/yaiiow159/Timmy-s-3c-store/blob/main/img/laptop-bar-middle.jpg);
-}
-
 .carousel-height {
   height: 496px;
 }
@@ -12303,15 +12291,15 @@ a {
 
 /* background image  */
 .intro-box-image-first {
-  background-image: url(../img/intro-box-img1.jpeg);
+  background-image: url(../img/bar-title1.jpg);
 }
 
 .intro-box-image-second {
-  background-image: url(../img/intro-box-img2.jpeg);
+  background-image: url(../img/bar-title2.jpg);
 }
 
 .intro-box-image-third {
-  background-image: url(../img/intro-box-img3.jpeg);
+  background-image: url(../img/bar-title3.jpg);
 }
 
 /* background */
