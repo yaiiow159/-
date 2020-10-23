@@ -27,7 +27,7 @@
 
 <body>
     <!-- header layout -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light font-weight-bolder sticky-top mb-3">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark font-weight-bolder sticky-top mb-3">
         <div class="container">
             <a class="navbar-brand " href="index.html"> <i class="fas fa-laptop  mr-2"></i>傑姆的3C之家</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -145,13 +145,13 @@
                                     </select>
                                 </div>
                             </form>
-                            <a href="checkout2.html" class="btn text-white btn-block  py-1 font-bold-size">下一步</a>
+                            <a href="checkout2.html" class="btn btn-dark text-light btn-block  py-1 font-bold-size">下一步</a>
                         </div>
                     <!-- Aside part -->
                     <div class="col-md-4">
                         <div class="accordion col-md-10 mb-2" id="ShowShopDetail">
                             <h2 class="mb-0">
-                                <button class="btn btn-dark btn-block text-center text-light font-bold-size p-2"
+                                <button class="btn btn-shadows btn-block text-center text-dark font-bold-size p-2"
                                     type="button" data-toggle="collapse" data-target="#collapseOne"
                                     aria-controls="collapseOne">
                                     顯示購物明細
@@ -171,12 +171,12 @@
                                                 <tr>
                                                     <th class="text-left" scope="row">小計</th>
                                                     <td></td>
-                                                    <td class="text-right" colspan="2">NT$183400</td>
+                                                    <td class="text-right" colspan="2">NT$183,400</td>
                                                 </tr>
                                                 <tr>
                                                     <th class="text-left" scope="row">運費</th>
                                                     <td></td>
-                                                    <td class="text-right" colspan="2">NT$3600</td>
+                                                    <td class="text-right" colspan="2">NT$3,600</td>
                                                 </tr>
                                             </tbody>
                                             <tfoot class="font-bold-size">
@@ -184,7 +184,7 @@
                                                     總計
                                                 </td>
                                                 <td></td>
-                                                <td class="text-right" colspan="2">NT$187000</td>
+                                                <td class="text-right" colspan="2">NT$187,000</td>
                                             </tfoot>
                                         </table>
                                     </div>
@@ -205,7 +205,7 @@
                                         </div>
                                         <div class=" d-flex flex-column justify-content-center">
                                             <span class="shop-item-name">紫色迷幻R3560X (1)</span>
-                                            <span class="shop-price ">$33000</span>
+                                            <span class="shop-price ">$33,000</span>
                                         </div>
                                     </div>
                                     <div class="d-flex  mb-1">
@@ -215,7 +215,7 @@
                                         </div>
                                         <div class=" d-flex flex-column justify-content-center">
                                             <span class="shop-item-name ">RTG電競XS (1)</span>
-                                            <span class="shop-price ">$28000</span>
+                                            <span class="shop-price ">$28,000</span>
                                         </div>
                                     </div>
                                     <div class="d-flex mb-1">
@@ -225,7 +225,7 @@
                                         </div>
                                         <div class=" d-flex flex-column justify-content-center">
                                             <span class="shop-item-name">商業之王GFDS (1)</span>
-                                            <span class="shop-price ">$33000</span>
+                                            <span class="shop-price ">$33,000</span>
                                         </div>
                                     </div>
                                 </div>
@@ -259,24 +259,22 @@
             </div>
         </div>
     </section>
-    <!--footer layout -->
     <footer class="py-3 bg-shadows text-spotify-dark">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-5 d-flex flex-column justify-content-between justify-content-md-start">
+                <div class="col-md-5 d-flex flex-column justify-content-between justify-content-md-start mb-3">
                     <p class="h4 font-weight-bolder mb-1">關於我們</p>
-                    <p>我們有最好的團隊來保持質量和價格，以確保向客戶提供最優質的產品，我們自2016年以來銷售超過20,0000件產品，現在我們準備出售新產品並訂閱我們，成為我們的會員可以享受折扣</p>
+                    <p>我們有最好的團隊來保持質量和價格，以確保向客戶提供最優質的產品，我們自2016年以來銷售超過200,000件產品，現在我們準備出售新產品並訂閱我們，成為我們的會員可以享受折扣</p>
                     <ul class="list-unstyled mt-5">
                         <li class="h4 font-weight-bolder mb-1">聯絡資訊</li>
                         <li>07-1234-5678</li>
-                        <li><a class="text-spotify-dark" href="mailto:Timmy3C@email.com">Timmy3Chome@email.com</a>
-                        </li>
+                        <li><a class="text-spotify-dark" href="mailto:Timmy3C@email.com">Timmy3Chome@email.com</a></li>
                         <li>服務時間: AM 9:00 到 PM 5:00</li>
                         <li>新北市光華區資訊路878號</li>
                     </ul>
                 </div>
-                <div class="col-md-5 text-center d-none d-md-block">
-                    <div>
+                <div class="col-md-5 text-left text-md-right d-flex flex-column justify-content-between">
+                    <div class="mb-md-0 mb-3">
                         <p class="h4 font-weight-bolder mb-1">顧客服務</p>
                         <ul>
                             <li>
@@ -290,16 +288,19 @@
                             </li>
                         </ul>
                     </div>
+                    <div>
+                        <a class="facebook-color" href="https://www.facebook.com/"><i
+                                class="fab fa-facebook-square fa-3x facebook-color"></i></a>
+                        <a class="twitter-color" href="https://twitter.com/"><i
+                                class="fab fa-twitter-square fa-3x twitter-color"></i></a>
+                        <a class="google-color" href="https://google.com"><i
+                                class="fa fa-google-plus-square fa-3x goole-color" aria-hidden="true"></i></a>
+                    </div>
                 </div>
+
             </div>
             <div class="row justify-content-center mt-4">
-                <div class="col-md-5">
-                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-3x facebook-color"></i></a>
-                    <a href="https://twitter.com/"><i class="fab fa-twitter-square fa-3x twitter-color"></i></a>
-                    <a href="https://google.com"><i class="fa fa-google-plus-square fa-3x goole-color"
-                            aria-hidden="true"></i></a>
-                </div>
-                <div class="col-md-5 text-center mt-2">
+                <div class="col-12 text-center mt-2">
                     <p>
                         2020 © Timmy's 3C ALL RIGHTS RESERVED Timmy company
                     </p>
