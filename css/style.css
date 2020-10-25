@@ -12397,7 +12397,7 @@ a {
 }
 
 .main-section-title {
-  font-size: 33px !important;
+  font-size: 33px;
   font-weight: bolder;
   line-height: 2;
   letter-spacing: 10px;
