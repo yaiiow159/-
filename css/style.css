@@ -12399,7 +12399,7 @@ a {
 .main-section-title {
   font-size: 33px;
   font-weight: bolder;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 10px;
   color: #191414;
   -webkit-writing-mode: vertical-rl;
@@ -12563,4 +12563,8 @@ a {
 .bar-btn-text:hover {
   color: azure;
 }
+
+/*   *{
+	border:1px solid #000;
+}   */
 /*# sourceMappingURL=style.css.map */
