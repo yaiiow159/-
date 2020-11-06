@@ -1,0 +1,59 @@
+
+$spotify-green:#1DB954;
+$spotify-dark :#191414;
+$blood:#8a0303;
+$shadow:rgb(140, 138, 138);
+$shadow-200:rgb(155, 153, 153);
+$dark:#000;
+$dark-200:rgb(47, 47, 47);
+
+
+
+
+
+.spotify-bg{
+
+    &-green{
+        background-color: $spotify-green;
+    }
+    &-dark{
+        background-color: $spotify-dark;        
+    }
+}
+
+
+.bg{
+    &-shadow{
+        background-color: $shadow;
+    }
+
+    &-shadow-200{
+        background-color: $shadow-200;
+    }
+
+
+    &-dark-200{
+        background-color:$dark-200;
+    }
+}
+
+
+.text-spotify{
+    color: $spotify-green;
+}
+.text-spotify-dark{
+    color: $spotify-dark;
+}
+
+.text-shadow{
+    color: $shadow;
+}
+
+
+.google-color{
+
+}
+
+
+
+

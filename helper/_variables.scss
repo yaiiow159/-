@@ -64,11 +64,7 @@ $colors: (
   "gray":       $gray-600,
   "blood":      $darkred,
   "gray-dark":  $gray-800,
-  "lightgreen": $lightgreen, //custom color
-  "darkgreen":  $darkgreen,  //custom color
-  "twitter":    $twitter,    //custom color
-  "facbook":    $facebook,   //custom color
-  "goole":      $google,     //custom color
+
 ) !default;
 // scss-docs-end colors-map
 
@@ -94,10 +90,6 @@ $theme-colors: (
   "light":      $light,
   "dark":       $dark,
   "spotify":    $spotify, //custom color theme
-  "spotify-dark": #191414,
-  "shadows":    $gray-200,
-  "leaf":       $leaf,    //custom color theme
-  "blood":      $darkred, //custom color theme
 ) !default;
 // scss-docs-end theme-colors-map
 
