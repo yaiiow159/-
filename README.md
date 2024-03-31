@@ -4,4 +4,4 @@
 使用技術:　html、css、scss、rwd、javascript、jquery
 
 ---------------------------------------------------------------------
-頁面瀏覽 :https://yaiiow159.github.io/電腦商城/
+頁面瀏覽 :https://yaiiow159.github.io/Timmy-computer-store/
